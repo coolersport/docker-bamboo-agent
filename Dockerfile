@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:8_server-jre_unlimited
+FROM coolersport/maven:3.2.5-jdk-8
 
 COPY run-agent.sh /tmp/
 
